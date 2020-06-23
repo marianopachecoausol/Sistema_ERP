@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<incidents xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='http://www.gstatic.com/road-incidents/incidents_feed.xsd'>
+<incident id='FR3M6YF'>
+<creationtime>2018-11-13T09:26:42-03:00</creationtime>
+<type>ACCIDENT</type>
+<subtype>ACCIDENT_MAJOR</subtype>
+ <description>5T</description>
+<location>
+<polyline>-34.4859717 -58.6096251</polyline>
+</location>
+ <starttime>2018-11-13T09:25:42-03:00</starttime>
+ <endtime>2018-11-13T09:26:42-03:00</endtime>
+ <name>Autopistas del Sol S.A.</name>
+</incident>
+</incidents>

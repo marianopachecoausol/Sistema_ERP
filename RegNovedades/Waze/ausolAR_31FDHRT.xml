@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<incidents xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='http://www.gstatic.com/road-incidents/incidents_feed.xsd'>
+<incident id='31FDHRT'>
+<creationtime>2017-11-17T12:40:51-03:00</creationtime>
+<type>ACCIDENT</type>
+<subtype>ACCIDENT_MAJOR</subtype>
+ <description>PRUEBA DESCRIPCION</description>
+<location>
+<polyline>-346357383 -587861602</polyline>
+</location>
+ <starttime>2017-11-17T12:40:15-03:00</starttime>
+</incident>
+</incidents>

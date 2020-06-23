@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<incidents xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='http://www.gstatic.com/road-incidents/incidents_feed.xsd'>
+<incident id='KX90NI7'>
+<creationtime>2017-11-21T16:38:16-03:00</creationtime>
+<type>ACCIDENT</type>
+<subtype>ACCIDENT_MAJOR</subtype>
+ <description>HJ</description>
+<location>
+<polyline>-34.4861309 -58.6096573</polyline>
+</location>
+ <starttime>2017-11-21T15:43:17-03:00</starttime>
+ <endtime>2017-11-21T16:37:40-03:00</endtime>
+ <name>Autopistas del Sol S.A.</name>
+</incident>
+</incidents>

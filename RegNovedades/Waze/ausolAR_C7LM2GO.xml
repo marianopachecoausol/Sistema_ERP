@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<incidents xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='http://www.gstatic.com/road-incidents/incidents_feed.xsd'>
+<incident id='C7LM2GO'>
+<creationtime>2017-11-21T11:24:40-03:00</creationtime>
+<type>ACCIDENT</type>
+<subtype>ACCIDENT_MAJOR</subtype>
+ <description>DDD</description>
+<location>
+<polyline>-346357383 -587861602</polyline>
+</location>
+ <starttime>2017-11-21T11:24:03-03:00</starttime>
+</incident>
+</incidents>

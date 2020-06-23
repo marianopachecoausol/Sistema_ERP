@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<incidents xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='http://www.gstatic.com/road-incidents/incidents_feed.xsd'>
+<incident id='O2OTVW8'>
+ <creationtime>2017-11-27T15:35:53-03:00</creationtime>
+<type>ACCIDENT</type>
+<subtype>ACCIDENT_MINOR</subtype>
+ <description>TEST FOR AUSOL-WAZE IMPLEMENTATION RC 36.5</description>
+<location>
+<polyline>-34.4389337 -58.7069061</polyline>
+</location>
+ <starttime>2017-11-27T15:35:53-03:00</starttime>
+ <name>Autopistas del Sol S.A.</name>
+</incident>
+</incidents>

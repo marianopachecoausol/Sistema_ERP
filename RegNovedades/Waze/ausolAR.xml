@@ -1,0 +1,1543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.gstatic.com/road-incidents/incidents_feed.xsd">
+<incident id="NPX389K" > 
+  <creationtime>2019-10-10T15:23:52-03:00</creationtime>
+  <description>SIN HERIDOS</description>
+  <location>
+<street>GENERAL PAZ - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5469512 -58.4935793</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-10-10T15:23:52-03:00</starttime>
+ <endtime>2019-10-10T19:23:52-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MINOR</subtype>
+</incident>
+<incident id="R7JARB8" > 
+  <creationtime>2019-10-10T03:47:08-03:00</creationtime>
+  <description>UN VEHICULO EN PARQUIZADO UN HERIDO</description>
+  <location>
+<street>PILAR - COLECTORA FRENTISTA ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.4672747 -58.6875647</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-10-10T03:47:08-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MINOR</subtype>
+</incident>
+<incident id="R7JARB8" > 
+  <creationtime>2019-10-10T03:47:05-03:00</creationtime>
+  <description>UN VEHICULO EN PARQUIZADO UN HERIDO</description>
+  <location>
+<street>PILAR - COLECTORA FRENTISTA ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.4672747 -58.6875647</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-10-10T03:47:05-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MINOR</subtype>
+</incident>
+<incident id="E5C87VX" > 
+  <creationtime>2019-10-09T01:24:52-03:00</creationtime>
+  <description>UN VEHICULO UN HERIDO TRASLADADO </description>
+  <location>
+<street>GENERAL PAZ - CALZADA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5468805 -58.4936464</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-10-09T01:24:52-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MINOR</subtype>
+</incident>
+<incident id="E5C87VX" > 
+  <creationtime>2019-10-09T01:24:48-03:00</creationtime>
+  <description>UN VEHICULO UN HERIDO TRASLADADO </description>
+  <location>
+<street>GENERAL PAZ - CALZADA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5468805 -58.4936464</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-10-09T01:24:48-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MINOR</subtype>
+</incident>
+<incident id="E5C87VX" > 
+  <creationtime>2019-10-09T01:24:45-03:00</creationtime>
+  <description>UN VEHICULO UN HERIDO TRASLADADO </description>
+  <location>
+<street>GENERAL PAZ - CALZADA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5468805 -58.4936464</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-10-09T01:24:45-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MINOR</subtype>
+</incident>
+<incident id="D2JQO0L" > 
+  <creationtime>2019-10-05T00:30:11-03:00</creationtime>
+  <description>UN VEHICULO SIN HERIDOS</description>
+  <location>
+<street>CAMPANA - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.3594905 -58.7952071</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-10-05T00:30:11-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MINOR</subtype>
+</incident>
+<incident id="D2JQO0L" > 
+  <creationtime>2019-10-05T00:30:09-03:00</creationtime>
+  <description>UN VEHICULO SIN HERIDOS</description>
+  <location>
+<street>CAMPANA - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.3594905 -58.7952071</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-10-05T00:30:09-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MINOR</subtype>
+</incident>
+<incident id="68HU1FJ" > 
+  <creationtime>2019-10-04T23:02:01-03:00</creationtime>
+  <description>ACCIDENTE VUELCO DE CAMION </description>
+  <location>
+<street>ACCESO NORTE - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.4757216 -58.6625719</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-10-04T23:02:01-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="68HU1FJ" > 
+  <creationtime>2019-10-04T23:01:58-03:00</creationtime>
+  <description>ACCIDENTE VUELCO DE CAMION </description>
+  <location>
+<street>ACCESO NORTE - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.4757216 -58.6625719</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-10-04T23:01:58-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="SJO9VJV" > 
+  <creationtime>2019-09-29T22:39:59-03:00</creationtime>
+  <description>UN VEHICULO SIN HERIDOS CARRIL RAPIDO </description>
+  <location>
+<street>CAMPANA - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.4501748 -58.6980146</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-09-29T22:39:59-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="SJO9VJV" > 
+  <creationtime>2019-09-29T22:39:56-03:00</creationtime>
+  <description>UN VEHICULO SIN HERIDOS CARRIL RAPIDO </description>
+  <location>
+<street>CAMPANA - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.4501748 -58.6980146</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-09-29T22:39:56-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="CPHC6J7" > 
+  <creationtime>2019-09-28T11:43:05-03:00</creationtime>
+  <description>ACCIDENTE</description>
+  <location>
+<street>ACCESO NORTE - COLECTORA FRENTISTA DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5142658 -58.5232821</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-09-28T11:43:05-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="CPHC6J7" > 
+  <creationtime>2019-09-28T11:43:03-03:00</creationtime>
+  <description>ACCIDENTE</description>
+  <location>
+<street>ACCESO NORTE - COLECTORA FRENTISTA DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5142658 -58.5232821</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-09-28T11:43:03-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="CPHC6J7" > 
+  <creationtime>2019-09-28T11:43:02-03:00</creationtime>
+  <description>ACCIDENTE</description>
+  <location>
+<street>ACCESO NORTE - COLECTORA FRENTISTA DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5142658 -58.5232821</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-09-28T11:43:02-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="CNQV3J4" > 
+  <creationtime>2019-09-22T21:58:04-03:00</creationtime>
+  <description>UN VEHICULO SIN HERIDO </description>
+  <location>
+<street>CAMPANA - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.3323888 -58.8306713</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-09-22T21:58:04-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="CNQV3J4" > 
+  <creationtime>2019-09-22T21:58:02-03:00</creationtime>
+  <description>UN VEHICULO SIN HERIDO </description>
+  <location>
+<street>CAMPANA - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.3323888 -58.8306713</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-09-22T21:58:02-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="1XM7CF6" > 
+  <creationtime>2019-09-22T02:48:31-03:00</creationtime>
+  <description>DOS VEHICULOS SIN HERIDOS </description>
+  <location>
+<street>ACCESO NORTE - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.4876652 -58.594653</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-09-22T02:48:31-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MINOR</subtype>
+</incident>
+<incident id="1XM7CF6" > 
+  <creationtime>2019-09-22T02:48:29-03:00</creationtime>
+  <description>DOS VEHICULOS SIN HERIDOS </description>
+  <location>
+<street>ACCESO NORTE - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.4876652 -58.594653</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-09-22T02:48:29-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MINOR</subtype>
+</incident>
+<incident id="GIJ14T0" > 
+  <creationtime>2019-09-21T03:44:04-03:00</creationtime>
+  <description>4 VEHICULOS UN HERIDO CARRIL LENTO CENTRAL Y BAQUINA </description>
+  <location>
+<street>ACCESO NORTE - COLECTORA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5197135 -58.513779</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-09-21T03:44:04-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="GIJ14T0" > 
+  <creationtime>2019-09-21T03:43:47-03:00</creationtime>
+  <description>4 VEHICULOS UN HERIDO CARRIL LENTO CENTRAL Y BAQUINA </description>
+  <location>
+<street>ACCESO NORTE - COLECTORA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5197135 -58.513779</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-09-21T03:43:47-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="CFYKQ03" > 
+  <creationtime>2019-09-21T01:33:37-03:00</creationtime>
+  <description>UN VEHICULO SIN HERIDOS EN BANQUINA</description>
+  <location>
+<street>ACCESO NORTE - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.4966716 -58.5538673</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-09-21T01:33:37-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="CFYKQ03" > 
+  <creationtime>2019-09-21T01:33:35-03:00</creationtime>
+  <description>UN VEHICULO SIN HERIDOS EN BANQUINA</description>
+  <location>
+<street>ACCESO NORTE - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.4966716 -58.5538673</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-09-21T01:33:35-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="CFYKQ03" > 
+  <creationtime>2019-09-21T01:33:33-03:00</creationtime>
+  <description>UN VEHICULO SIN HERIDOS EN BANQUINA</description>
+  <location>
+<street>ACCESO NORTE - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.4966716 -58.5538673</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-09-21T01:33:33-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="CFYKQ03" > 
+  <creationtime>2019-09-21T01:33:15-03:00</creationtime>
+  <description>UN VEHICULO SIN HERIDOS EN BANQUINA</description>
+  <location>
+<street>ACCESO NORTE - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.4966716 -58.5538673</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-09-21T01:33:15-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="TKOA2LG" > 
+  <creationtime>2019-09-05T17:22:41-03:00</creationtime>
+  <description>CON HERIDOS.</description>
+  <location>
+<street>CAMPANA - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.4389337 -58.7069061</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-09-05T17:22:41-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="TKOA2LG" > 
+  <creationtime>2019-09-05T17:22:37-03:00</creationtime>
+  <description>CON HERIDOS.</description>
+  <location>
+<street>CAMPANA - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.4389337 -58.7069061</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-09-05T17:22:37-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="Z2JIIZJ" > 
+  <creationtime>2019-09-04T00:05:10-03:00</creationtime>
+  <description>2 VEHICULOS SIN HERIDOS </description>
+  <location>
+<street>PILAR - CALZADA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.4432516 -58.8683778</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-09-04T00:05:10-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="PU741AT" > 
+  <creationtime>2019-09-03T01:42:31-03:00</creationtime>
+  <description>UN VEHICULO SIN HERIDOS EN PARQUIZADO</description>
+  <location>
+<street>GENERAL PAZ - CALZADA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.6888306 -58.4827888</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-09-03T01:42:31-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="PU741AT" > 
+  <creationtime>2019-09-03T01:42:29-03:00</creationtime>
+  <description>UN VEHICULO SIN HERIDOS EN PARQUIZADO</description>
+  <location>
+<street>GENERAL PAZ - CALZADA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.6888306 -58.4827888</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-09-03T01:42:29-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="A2P2PIU" > 
+  <creationtime>2019-08-28T14:13:24-03:00</creationtime>
+  <description>CON HERIDO</description>
+  <location>
+<street>PILAR - CALZADA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.4386815 -58.7950408</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-08-28T14:13:24-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="A2P2PIU" > 
+  <creationtime>2019-08-28T14:13:07-03:00</creationtime>
+  <description>CON HERIDO</description>
+  <location>
+<street>PILAR - CALZADA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.4386815 -58.7950408</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-08-28T14:13:07-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="R729Y1I" > 
+  <creationtime>2019-08-27T17:58:40-03:00</creationtime>
+  <description>CON HERIDOS.</description>
+  <location>
+<street>CAMPANA - CALZADA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.382338 -58.7499047</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-08-27T17:58:40-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="R729Y1I" > 
+  <creationtime>2019-08-27T17:58:39-03:00</creationtime>
+  <description>CON HERIDOS.</description>
+  <location>
+<street>CAMPANA - CALZADA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.382338 -58.7499047</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-08-27T17:58:39-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="0SOY982" > 
+  <creationtime>2019-08-18T17:49:46-03:00</creationtime>
+  <description>SIN HERIDOS</description>
+  <location>
+<street>ACCESO NORTE - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.4819125 -58.6364794</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-08-18T17:49:46-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="0SOY982" > 
+  <creationtime>2019-08-18T17:49:28-03:00</creationtime>
+  <description>SIN HERIDOS</description>
+  <location>
+<street>ACCESO NORTE - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.4819125 -58.6364794</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-08-18T17:49:28-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="FVWLD1O" > 
+  <creationtime>2019-08-18T16:12:57-03:00</creationtime>
+  <description>CON HERIDOS</description>
+  <location>
+<street>CAMPANA - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.2405393 -58.908686</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-08-18T16:12:57-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MINOR</subtype>
+</incident>
+<incident id="FVWLD1O" > 
+  <creationtime>2019-08-18T16:12:55-03:00</creationtime>
+  <description>CON HERIDOS</description>
+  <location>
+<street>CAMPANA - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.2405393 -58.908686</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-08-18T16:12:55-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MINOR</subtype>
+</incident>
+<incident id="FVWLD1O" > 
+  <creationtime>2019-08-18T16:12:53-03:00</creationtime>
+  <description>CON HERIDOS</description>
+  <location>
+<street>CAMPANA - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.2405393 -58.908686</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-08-18T16:12:53-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MINOR</subtype>
+</incident>
+<incident id="FVWLD1O" > 
+  <creationtime>2019-08-18T16:12:36-03:00</creationtime>
+  <description>CON HERIDOS</description>
+  <location>
+<street>CAMPANA - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.2405393 -58.908686</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-08-18T16:12:36-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MINOR</subtype>
+</incident>
+<incident id="NWC01XP" > 
+  <creationtime>2019-08-16T21:09:41-03:00</creationtime>
+  <description>2 VEHICULO SIN HERIDOS CARRIL RAPIDO Y BANQUINA</description>
+  <location>
+<street>ACCESO NORTE - COLECTORA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5350139 -58.5022321</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-08-16T21:09:41-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="NWC01XP" > 
+  <creationtime>2019-08-16T21:09:40-03:00</creationtime>
+  <description>2 VEHICULO SIN HERIDOS CARRIL RAPIDO Y BANQUINA</description>
+  <location>
+<street>ACCESO NORTE - COLECTORA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5350139 -58.5022321</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-08-16T21:09:40-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="JA8QEFV" > 
+  <creationtime>2019-08-16T16:25:14-03:00</creationtime>
+  <description>SIN HERIDOS</description>
+  <location>
+<street>ACCESO NORTE - CALZADA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.4965677 -58.5535669</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-08-16T16:25:14-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="JA8QEFV" > 
+  <creationtime>2019-08-16T16:25:11-03:00</creationtime>
+  <description>SIN HERIDOS</description>
+  <location>
+<street>ACCESO NORTE - CALZADA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.4965677 -58.5535669</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-08-16T16:25:11-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="YUIPYKL" > 
+  <creationtime>2019-08-05T16:59:58-03:00</creationtime>
+  <description>SIN HERIDOS</description>
+  <location>
+<street>ACCESO NORTE - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.4757216 -58.6625719</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-08-05T16:59:58-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="YUIPYKL" > 
+  <creationtime>2019-08-05T16:59:56-03:00</creationtime>
+  <description>SIN HERIDOS</description>
+  <location>
+<street>ACCESO NORTE - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.4757216 -58.6625719</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-08-05T16:59:56-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="56MU0V7" > 
+  <creationtime>2019-08-04T19:28:41-03:00</creationtime>
+  <description>CON HERIDO</description>
+  <location>
+<street>PILAR - CALZADA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.4372215 -58.8057348</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-08-04T19:28:41-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="56MU0V7" > 
+  <creationtime>2019-08-04T19:28:39-03:00</creationtime>
+  <description>CON HERIDO</description>
+  <location>
+<street>PILAR - CALZADA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.4372215 -58.8057348</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-08-04T19:28:39-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="56MU0V7" > 
+  <creationtime>2019-08-04T19:28:37-03:00</creationtime>
+  <description>CON HERIDO</description>
+  <location>
+<street>PILAR - CALZADA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.4372215 -58.8057348</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-08-04T19:28:37-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="SSRCP9U" > 
+  <creationtime>2019-08-04T18:05:09-03:00</creationtime>
+  <description>SIN HERIDOS</description>
+  <location>
+<street>CAMPANA - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.3717164 -58.766309</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-08-04T18:05:09-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="SSRCP9U" > 
+  <creationtime>2019-08-04T18:05:06-03:00</creationtime>
+  <description>SIN HERIDOS</description>
+  <location>
+<street>CAMPANA - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.3717164 -58.766309</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-08-04T18:05:06-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="BWX6HNA" > 
+  <creationtime>2019-08-03T13:40:01-03:00</creationtime>
+  <description>CON HERIDO</description>
+  <location>
+<street>TIGRE - CALZADA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.4722456 -58.5662484</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-08-03T13:40:01-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="BWX6HNA" > 
+  <creationtime>2019-08-03T13:39:59-03:00</creationtime>
+  <description>CON HERIDO</description>
+  <location>
+<street>TIGRE - CALZADA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.4722456 -58.5662484</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-08-03T13:39:59-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="TZH6V70" > 
+  <creationtime>2019-08-01T18:23:09-03:00</creationtime>
+  <description>CON HERIDOS</description>
+  <location>
+<street>GENERAL PAZ - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5525912 -58.5013604</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-08-01T18:23:09-03:00</starttime>
+ <endtime>2019-10-10T16:24:20-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="TZH6V70" > 
+  <creationtime>2019-08-01T18:23:07-03:00</creationtime>
+  <description>CON HERIDOS</description>
+  <location>
+<street>GENERAL PAZ - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5525912 -58.5013604</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-08-01T18:23:07-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="TZH6V70" > 
+  <creationtime>2019-08-01T18:23:05-03:00</creationtime>
+  <description>CON HERIDOS</description>
+  <location>
+<street>GENERAL PAZ - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5525912 -58.5013604</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-08-01T18:23:05-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="TZH6V70" > 
+  <creationtime>2019-08-01T18:23:04-03:00</creationtime>
+  <description>CON HERIDOS</description>
+  <location>
+<street>GENERAL PAZ - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5525912 -58.5013604</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-08-01T18:23:04-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="6NRXA96" > 
+  <creationtime>2019-07-26T06:52:16-03:00</creationtime>
+  <description>ACCIDENTE</description>
+  <location>
+<street>ACCESO NORTE - CALZADA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.4817268 -58.6364365</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-07-26T06:52:16-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="6NRXA96" > 
+  <creationtime>2019-07-26T06:52:14-03:00</creationtime>
+  <description>ACCIDENTE</description>
+  <location>
+<street>ACCESO NORTE - CALZADA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.4817268 -58.6364365</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-07-26T06:52:14-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="NAFAMQF" > 
+  <creationtime>2019-07-12T23:38:47-03:00</creationtime>
+  <description>DOS VEHICULOS SIN HERIDOS CARRIL LENTO Y CENTRAL </description>
+  <location>
+<street>GENERAL PAZ - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5609897 -58.5052979</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-07-12T23:38:47-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="NAFAMQF" > 
+  <creationtime>2019-07-12T23:38:45-03:00</creationtime>
+  <description>DOS VEHICULOS SIN HERIDOS CARRIL LENTO Y CENTRAL </description>
+  <location>
+<street>GENERAL PAZ - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5609897 -58.5052979</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-07-12T23:38:45-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="NAFAMQF" > 
+  <creationtime>2019-07-12T23:38:43-03:00</creationtime>
+  <description>DOS VEHICULOS SIN HERIDOS CARRIL LENTO Y CENTRAL </description>
+  <location>
+<street>GENERAL PAZ - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5609897 -58.5052979</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-07-12T23:38:43-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="RLSIYPE" > 
+  <creationtime>2019-06-22T13:36:09-03:00</creationtime>
+  <description>TRES VEHICULOS COLISIONADOS SOBRE CARRIL LENTO, UN HERIDO</description>
+  <location>
+<street>GENERAL PAZ - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5901526 -58.5189879</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-06-22T13:36:09-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="RLSIYPE" > 
+  <creationtime>2019-06-22T13:36:07-03:00</creationtime>
+  <description>TRES VEHICULOS COLISIONADOS SOBRE CARRIL LENTO, UN HERIDO</description>
+  <location>
+<street>GENERAL PAZ - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5901526 -58.5189879</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-06-22T13:36:07-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="RLSIYPE" > 
+  <creationtime>2019-06-22T13:36:05-03:00</creationtime>
+  <description>TRES VEHICULOS COLISIONADOS SOBRE CARRIL LENTO, UN HERIDO</description>
+  <location>
+<street>GENERAL PAZ - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5901526 -58.5189879</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-06-22T13:36:05-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="RLSIYPE" > 
+  <creationtime>2019-06-22T13:35:48-03:00</creationtime>
+  <description>TRES VEHICULOS COLISIONADOS SOBRE CARRIL LENTO, UN HERIDO</description>
+  <location>
+<street>GENERAL PAZ - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5901526 -58.5189879</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-06-22T13:35:48-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="LJV7GHQ" > 
+  <creationtime>2019-06-13T13:25:16-03:00</creationtime>
+  <description>UN SOLO VEHICULO COLISIONADO, SOBRE CARRIL LENTO</description>
+  <location>
+<street>ACCESO NORTE - CALZADA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5011567 -58.5445869</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-06-13T13:25:16-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MINOR</subtype>
+</incident>
+<incident id="LJV7GHQ" > 
+  <creationtime>2019-06-13T13:24:59-03:00</creationtime>
+  <description>UN SOLO VEHICULO COLISIONADO, SOBRE CARRIL LENTO</description>
+  <location>
+<street>ACCESO NORTE - CALZADA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5011567 -58.5445869</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-06-13T13:24:59-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MINOR</subtype>
+</incident>
+<incident id="BBCHSIB" > 
+  <creationtime>2019-06-10T18:17:04-03:00</creationtime>
+  <description>DOS VEHICULOS COLISIONADOS SOBRE CARRIL RAPIDO</description>
+  <location>
+<street>PILAR - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.443486 -58.7677574</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-06-10T18:17:04-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="BBCHSIB" > 
+  <creationtime>2019-06-10T18:16:47-03:00</creationtime>
+  <description>DOS VEHICULOS COLISIONADOS SOBRE CARRIL RAPIDO</description>
+  <location>
+<street>PILAR - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.443486 -58.7677574</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-06-10T18:16:47-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="67178M7" > 
+  <creationtime>2019-06-04T22:46:59-03:00</creationtime>
+  <description>2 VEHICULOS UN HERIDO CARRIL LENTO Y CARRIL RAPIDO</description>
+  <location>
+<street>ACCESO NORTE - CALZADA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5163654 -58.5174751</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-06-04T22:46:59-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="67178M7" > 
+  <creationtime>2019-06-04T22:46:57-03:00</creationtime>
+  <description>2 VEHICULOS UN HERIDO CARRIL LENTO Y CARRIL RAPIDO</description>
+  <location>
+<street>ACCESO NORTE - CALZADA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5163654 -58.5174751</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-06-04T22:46:57-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="XQ9ET8B" > 
+  <creationtime>2019-05-30T16:52:51-03:00</creationtime>
+  <description>ACCIDENTE DE MOTOCIBLETA</description>
+  <location>
+<street>ACCESO NORTE - CALZADA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5461382 -58.4933138</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-05-30T16:52:51-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MINOR</subtype>
+</incident>
+<incident id="XQ9ET8B" > 
+  <creationtime>2019-05-30T16:52:34-03:00</creationtime>
+  <description>ACCIDENTE DE MOTOCIBLETA</description>
+  <location>
+<street>ACCESO NORTE - CALZADA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5461382 -58.4933138</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-05-30T16:52:34-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MINOR</subtype>
+</incident>
+<incident id="S6OM2YT" > 
+  <creationtime>2019-05-25T06:47:51-03:00</creationtime>
+  <description>ACCIDENTE</description>
+  <location>
+<street>ACCESO NORTE - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5351906 -58.5027471</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-05-25T06:47:51-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MINOR</subtype>
+</incident>
+<incident id="S6OM2YT" > 
+  <creationtime>2019-05-25T06:47:50-03:00</creationtime>
+  <description>ACCIDENTE</description>
+  <location>
+<street>ACCESO NORTE - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5351906 -58.5027471</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-05-25T06:47:50-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MINOR</subtype>
+</incident>
+<incident id="6GN98G6" > 
+  <creationtime>2019-05-19T03:12:38-03:00</creationtime>
+  <description>UN VEHICULO SIN HERIDOS BANQUINA </description>
+  <location>
+<street>GENERAL PAZ - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.6375775 -58.5296148</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-05-19T03:12:38-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MINOR</subtype>
+</incident>
+<incident id="6GN98G6" > 
+  <creationtime>2019-05-19T03:12:36-03:00</creationtime>
+  <description>UN VEHICULO SIN HERIDOS BANQUINA </description>
+  <location>
+<street>GENERAL PAZ - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.6375775 -58.5296148</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-05-19T03:12:36-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MINOR</subtype>
+</incident>
+<incident id="6GN98G6" > 
+  <creationtime>2019-05-19T03:12:35-03:00</creationtime>
+  <description>UN VEHICULO SIN HERIDOS BANQUINA </description>
+  <location>
+<street>GENERAL PAZ - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.6375775 -58.5296148</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-05-19T03:12:35-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MINOR</subtype>
+</incident>
+<incident id="G13L94P" > 
+  <creationtime>2019-05-11T04:20:13-03:00</creationtime>
+  <description>UN VEHICULO UN HERIDO </description>
+  <location>
+<street>ACCESO NORTE - CALZADA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.4965677 -58.5535669</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-05-11T04:20:13-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="G13L94P" > 
+  <creationtime>2019-05-11T04:20:11-03:00</creationtime>
+  <description>UN VEHICULO UN HERIDO </description>
+  <location>
+<street>ACCESO NORTE - CALZADA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.4965677 -58.5535669</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-05-11T04:20:11-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="G13L94P" > 
+  <creationtime>2019-05-11T04:19:54-03:00</creationtime>
+  <description>UN VEHICULO UN HERIDO </description>
+  <location>
+<street>ACCESO NORTE - CALZADA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.4965677 -58.5535669</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-05-11T04:19:54-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="I4IENGR" > 
+  <creationtime>2019-05-10T23:31:40-03:00</creationtime>
+  <description>UN VEHICULO INCENDIADO EN CARRIL LENTO </description>
+  <location>
+<street>GENERAL PAZ - CALZADA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5404293 -58.4791625</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-05-10T23:31:40-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="I4IENGR" > 
+  <creationtime>2019-05-10T23:31:38-03:00</creationtime>
+  <description>UN VEHICULO INCENDIADO EN CARRIL LENTO </description>
+  <location>
+<street>GENERAL PAZ - CALZADA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5404293 -58.4791625</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-05-10T23:31:38-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="I4IENGR" > 
+  <creationtime>2019-05-10T23:31:21-03:00</creationtime>
+  <description>UN VEHICULO INCENDIADO EN CARRIL LENTO </description>
+  <location>
+<street>GENERAL PAZ - CALZADA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5404293 -58.4791625</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-05-10T23:31:21-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="XIMELN4" > 
+  <creationtime>2019-05-01T13:33:54-03:00</creationtime>
+  <description>UN VEHICULO SOBRE CARRIL RAPIDO</description>
+  <location>
+<street>GENERAL PAZ - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5693587 -58.5092595</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-05-01T13:33:54-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="XIMELN4" > 
+  <creationtime>2019-05-01T13:33:37-03:00</creationtime>
+  <description>UN VEHICULO SOBRE CARRIL RAPIDO</description>
+  <location>
+<street>GENERAL PAZ - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5693587 -58.5092595</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-05-01T13:33:37-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="C1HYRNB" > 
+  <creationtime>2019-04-21T22:04:15-03:00</creationtime>
+  <description>UN VEHICULO SOBRE CARRIL LENTO SIN HERIDOS</description>
+  <location>
+<street>ACCESO NORTE - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.4886424 -58.5784954</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-04-21T22:04:15-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MINOR</subtype>
+</incident>
+<incident id="C1HYRNB" > 
+  <creationtime>2019-04-21T22:03:58-03:00</creationtime>
+  <description>UN VEHICULO SOBRE CARRIL LENTO SIN HERIDOS</description>
+  <location>
+<street>ACCESO NORTE - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.4886424 -58.5784954</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-04-21T22:03:58-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MINOR</subtype>
+</incident>
+<incident id="M06WLJK" > 
+  <creationtime>2019-03-18T14:40:57-03:00</creationtime>
+  <description>CON HERIDOS</description>
+  <location>
+<street>ACCESO NORTE - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5081281 -58.5305804</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-03-18T14:40:57-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="M06WLJK" > 
+  <creationtime>2019-03-18T14:40:40-03:00</creationtime>
+  <description>CON HERIDOS</description>
+  <location>
+<street>ACCESO NORTE - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5081281 -58.5305804</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-03-18T14:40:40-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="6246XXD" > 
+  <creationtime>2019-03-16T02:37:12-03:00</creationtime>
+  <description>UN VEHICULO SIN HERIDOS CARRIL LENTO</description>
+  <location>
+<street>GENERAL PAZ - CALZADA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5404293 -58.4791625</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-03-16T02:37:12-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MINOR</subtype>
+</incident>
+<incident id="6246XXD" > 
+  <creationtime>2019-03-16T02:37:09-03:00</creationtime>
+  <description>UN VEHICULO SIN HERIDOS CARRIL LENTO</description>
+  <location>
+<street>GENERAL PAZ - CALZADA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5404293 -58.4791625</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-03-16T02:37:09-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MINOR</subtype>
+</incident>
+<incident id="6246XXD" > 
+  <creationtime>2019-03-16T02:36:53-03:00</creationtime>
+  <description>UN VEHICULO SIN HERIDOS CARRIL LENTO</description>
+  <location>
+<street>GENERAL PAZ - CALZADA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5404293 -58.4791625</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-03-16T02:36:53-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MINOR</subtype>
+</incident>
+<incident id="T65YMQJ" > 
+  <creationtime>2019-03-15T22:58:24-03:00</creationtime>
+  <description>UN VEHICULO SIN HERIDOS EN BANQUINA</description>
+  <location>
+<street>CAMPANA - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.2968098 -58.883366</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-03-15T22:58:24-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MINOR</subtype>
+</incident>
+<incident id="T65YMQJ" > 
+  <creationtime>2019-03-15T22:58:08-03:00</creationtime>
+  <description>UN VEHICULO SIN HERIDOS EN BANQUINA</description>
+  <location>
+<street>CAMPANA - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.2968098 -58.883366</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-03-15T22:58:08-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MINOR</subtype>
+</incident>
+<incident id="SWUL9MK" > 
+  <creationtime>2019-03-01T17:13:49-03:00</creationtime>
+  <description>1 HERIDO</description>
+  <location>
+<street>GENERAL PAZ - CALZADA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5446757 -58.4887916</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-03-01T17:13:49-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="SWUL9MK" > 
+  <creationtime>2019-03-01T17:13:47-03:00</creationtime>
+  <description>1 HERIDO</description>
+  <location>
+<street>GENERAL PAZ - CALZADA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5446757 -58.4887916</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-03-01T17:13:47-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="SWUL9MK" > 
+  <creationtime>2019-03-01T17:13:45-03:00</creationtime>
+  <description>1 HERIDO</description>
+  <location>
+<street>GENERAL PAZ - CALZADA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5446757 -58.4887916</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-03-01T17:13:45-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="SWUL9MK" > 
+  <creationtime>2019-03-01T17:13:43-03:00</creationtime>
+  <description>1 HERIDO</description>
+  <location>
+<street>GENERAL PAZ - CALZADA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5446757 -58.4887916</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-03-01T17:13:43-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="5CK12HR" > 
+  <creationtime>2019-02-15T11:14:52-03:00</creationtime>
+  <description>ACCIDENTE</description>
+  <location>
+<street>PILAR - CALZADA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.439438 -58.8353222</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-02-15T11:14:52-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MINOR</subtype>
+</incident>
+<incident id="5CK12HR" > 
+  <creationtime>2019-02-15T11:14:35-03:00</creationtime>
+  <description>ACCIDENTE</description>
+  <location>
+<street>PILAR - CALZADA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.439438 -58.8353222</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-02-15T11:14:35-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MINOR</subtype>
+</incident>
+<incident id="836IMBL" > 
+  <creationtime>2019-02-12T15:17:02-03:00</creationtime>
+  <description>UN SOLO VEHICULO INVOLUCRADO, CARRIL CENTRAL</description>
+  <location>
+<street>ACCESO NORTE - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.4966716 -58.5538673</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-02-12T15:17:02-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="836IMBL" > 
+  <creationtime>2019-02-12T15:16:45-03:00</creationtime>
+  <description>UN SOLO VEHICULO INVOLUCRADO, CARRIL CENTRAL</description>
+  <location>
+<street>ACCESO NORTE - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.4966716 -58.5538673</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-02-12T15:16:45-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="X1NZM8C" > 
+  <creationtime>2019-02-09T03:22:14-03:00</creationtime>
+  <description>2 VEHICULOS UN HERIDO </description>
+  <location>
+<street>ACCESO NORTE - COLECTORA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5310852 -58.5049787</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-02-09T03:22:14-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MINOR</subtype>
+</incident>
+<incident id="X1NZM8C" > 
+  <creationtime>2019-02-09T03:22:12-03:00</creationtime>
+  <description>2 VEHICULOS UN HERIDO </description>
+  <location>
+<street>ACCESO NORTE - COLECTORA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5310852 -58.5049787</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-02-09T03:22:12-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MINOR</subtype>
+</incident>
+<incident id="8WOVO6F" > 
+  <creationtime>2019-01-30T16:57:20-03:00</creationtime>
+  <description>SIN HERIDOS, CARRIL CENTRAL OBSTRUIDO.</description>
+  <location>
+<street>GENERAL PAZ - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5525912 -58.5013604</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-01-30T16:57:20-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="8WOVO6F" > 
+  <creationtime>2019-01-30T16:57:03-03:00</creationtime>
+  <description>SIN HERIDOS, CARRIL CENTRAL OBSTRUIDO.</description>
+  <location>
+<street>GENERAL PAZ - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.5525912 -58.5013604</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-01-30T16:57:03-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="Q5O7V0K" > 
+  <creationtime>2019-01-27T10:49:57-03:00</creationtime>
+  <description>ACCIDENTE</description>
+  <location>
+<street>GENERAL PAZ - CALZADA PRINCIPAL ASC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.6888306 -58.4827888</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-01-27T10:49:57-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MAJOR</subtype>
+</incident>
+<incident id="AIJRU6N" > 
+  <creationtime>2019-01-15T05:44:30-03:00</creationtime>
+  <description>ACCIDENTE</description>
+  <location>
+<street>GENERAL PAZ - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.6027135 -58.5248512</polyline>
+  </location>
+ <reference>AUSOL</reference>
+ <starttime>2019-01-15T05:44:30-03:00</starttime>
+ <endtime>2019-10-10T16:24:21-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MINOR</subtype>
+</incident>
+</incidents>

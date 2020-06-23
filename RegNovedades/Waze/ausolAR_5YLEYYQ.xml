@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<incidents xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:noNamespaceSchemaLocation='http://www.gstatic.com/road-incidents/incidents_feed.xsd'>
+<incident id='5YLEYYQ'>
+<creationtime>2017-11-27T14:46:30-03:00</creationtime>
+<type>ACCIDENT</type>
+<subtype>ACCIDENT_MINOR</subtype>
+ <description>ESTA ES UNA PRUEBA DE INTEGRACION DE WAZE Y AUSOL</description>
+<location>
+<polyline>-34.4985859 -58.5488087</polyline>
+</location>
+ <starttime>2017-11-27T14:45:07-03:00</starttime>
+ <endtime>2017-11-27T14:45:52-03:00</endtime>
+ <name>Autopistas del Sol S.A.</name>
+</incident>
+</incidents>

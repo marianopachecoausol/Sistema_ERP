@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.gstatic.com/road-incidents/incidents_feed.xsd">
+<incident id="BK8M7HX" > 
+  <creationtime>2018-12-20T12:14:29-03:00</creationtime>
+  <updatetime>2018-12-20T13:57:37-03:00</updatetime>
+  <description>ACCIDENTE</description>
+  <location>
+<street>TIGRE - CALZADA PRINCIPAL DESC</street>
+     <direction>ONE_DIRECTION</direction>
+     <polyline>-34.4682034 -58.5687965</polyline>
+  </location>
+ <reference>AU-Panam</reference>
+ <starttime>2018-12-20T12:14:29-03:00</starttime>
+ <endtime>2018-12-20T13:57:37-03:00</endtime>
+ <type>ACCIDENT</type>
+ <subtype>ACCIDENT_MINOR</subtype>
+</incident>

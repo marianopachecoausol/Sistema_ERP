@@ -1,0 +1,13 @@
+Línea 95: la clase MSFlexGridLib.MSFlexGrid del control FlexEgreso no era una clase de control cargada.
+Línea 147: la clase MSFlexGridLib.MSFlexGrid del control FlexProduct no era una clase de control cargada.
+Línea 221: la clase MSFlexGridLib.MSFlexGrid del control FlexSubRubrosAsign no era una clase de control cargada.
+Línea 258: la clase MSFlexGridLib.MSFlexGrid del control FlexSubRubros no era una clase de control cargada.
+Línea 326: la clase MSFlexGridLib.MSFlexGrid del control FlexVehEspAsign no era una clase de control cargada.
+Línea 355: la clase MSFlexGridLib.MSFlexGrid del control FlexVehEspDispo no era una clase de control cargada.
+Línea 424: la clase MSFlexGridLib.MSFlexGrid del control FlexMoAsig no era una clase de control cargada.
+Línea 453: la clase MSFlexGridLib.MSFlexGrid del control FlexMoDispo no era una clase de control cargada.
+Línea 482: la clase MSFlexGridLib.MSFlexGrid del control FlexVehAsign no era una clase de control cargada.
+Línea 511: la clase MSFlexGridLib.MSFlexGrid del control FlexVehDispo no era una clase de control cargada.
+Línea 549: la clase MSFlexGridLib.MSFlexGrid del control FlexPartAsignados no era una clase de control cargada.
+Línea 578: la clase MSFlexGridLib.MSFlexGrid del control FlexPartes no era una clase de control cargada.
+Línea 611: la clase MSComctlLib.TabStrip del control TabStrip1 no era una clase de control cargada.
