@@ -215,9 +215,6 @@ Dim cboDetalleListIndex As Integer
 Dim vPartesOriginal() As Double
 
 
-
-
-
 Private Sub Combo7_Click()
 
    Dim mi As Integer
