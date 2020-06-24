@@ -1,6 +1,6 @@
 VERSION 5.00
 Begin VB.Form MantElect23 
-   Caption         =   "Histórico Intervención de Columna"
+   Caption         =   "Histórico Intervención de Columna."
    ClientHeight    =   2190
    ClientLeft      =   60
    ClientTop       =   450
