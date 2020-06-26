@@ -608,6 +608,10 @@ Begin VB.MDIForm MDI
          Caption         =   "Estado de Comunicados"
          Enabled         =   0   'False
       End
+      Begin VB.Menu MElecRepHistInterColumnas 
+         Caption         =   "Histórico de Intervención de Columna"
+         Enabled         =   0   'False
+      End
       Begin VB.Menu MElecRepStock 
          Caption         =   "Stock"
          Enabled         =   0   'False
@@ -2107,6 +2111,10 @@ ShowMenu 47, False, True
 MantElect22.Show
 End Sub
 
+Private Sub MElecRepHistInterColumnas_Click()
+ShowMenu 47, False, True
+MantElect23.Show
+End Sub
 
 Private Sub MElecRegAjusteInven_Click()
    ShowMenu 47, False, True
