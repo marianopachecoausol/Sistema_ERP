@@ -2018,6 +2018,78 @@ Public Function getRPT_OTs(ByVal FecInicio As Date, ByVal FecFin As Date) As ADO
 End Function
 
 '---------------------------------------
+'Sp: getRPT_OTs_Tecnicos
+'---------------------------------------
+Public Function getRPT_OTs_Tecnicos(ByVal FecInicio As Date, ByVal FecFin As Date) As ADODB.Recordset
+   Dim paramSQL As parametroSql
+   Dim aParamSql(1) As parametroSql
+
+   paramSQL.Nombre = "vFecInicio"
+   paramSQL.Tipo = adDBTimeStamp
+   paramSQL.Direccion = adParamInput
+   paramSQL.Tamanio = 8
+   paramSQL.Valor = FecInicio
+   aParamSql(0) = paramSQL
+      
+   paramSQL.Nombre = "vFecFin"
+   paramSQL.Tipo = adDBTimeStamp
+   paramSQL.Direccion = adParamInput
+   paramSQL.Tamanio = 8
+   paramSQL.Valor = FecFin
+   aParamSql(1) = paramSQL
+  
+   Set getRPT_OTs_Tecnicos = oStoreProcedureWithParam("getRPT_OTs_Tecnicos", aParamSql)
+End Function
+
+'---------------------------------------
+'Sp: getRPT_OTs_Subrubros
+'---------------------------------------
+Public Function getRPT_OTs_Subrubros(ByVal FecInicio As Date, ByVal FecFin As Date) As ADODB.Recordset
+   Dim paramSQL As parametroSql
+   Dim aParamSql(1) As parametroSql
+
+   paramSQL.Nombre = "vFecInicio"
+   paramSQL.Tipo = adDBTimeStamp
+   paramSQL.Direccion = adParamInput
+   paramSQL.Tamanio = 8
+   paramSQL.Valor = FecInicio
+   aParamSql(0) = paramSQL
+      
+   paramSQL.Nombre = "vFecFin"
+   paramSQL.Tipo = adDBTimeStamp
+   paramSQL.Direccion = adParamInput
+   paramSQL.Tamanio = 8
+   paramSQL.Valor = FecFin
+   aParamSql(1) = paramSQL
+  
+   Set getRPT_OTs_Subrubros = oStoreProcedureWithParam("getRPT_OTs_Subrubros", aParamSql)
+End Function
+
+'---------------------------------------
+'Sp: getRPT_OTs_Vehiculos
+'---------------------------------------
+Public Function getRPT_OTs_Vehiculos(ByVal FecInicio As Date, ByVal FecFin As Date) As ADODB.Recordset
+   Dim paramSQL As parametroSql
+   Dim aParamSql(1) As parametroSql
+
+   paramSQL.Nombre = "vFecInicio"
+   paramSQL.Tipo = adDBTimeStamp
+   paramSQL.Direccion = adParamInput
+   paramSQL.Tamanio = 8
+   paramSQL.Valor = FecInicio
+   aParamSql(0) = paramSQL
+      
+   paramSQL.Nombre = "vFecFin"
+   paramSQL.Tipo = adDBTimeStamp
+   paramSQL.Direccion = adParamInput
+   paramSQL.Tamanio = 8
+   paramSQL.Valor = FecFin
+   aParamSql(1) = paramSQL
+  
+   Set getRPT_OTs_Vehiculos = oStoreProcedureWithParam("getRPT_OTs_Vehiculos", aParamSql)
+End Function
+
+'---------------------------------------
 'Sp: getRPT_Comunicados
 '---------------------------------------
 Public Function getRPT_Comunicados(ByVal FecInicio As Date, ByVal FecFin As Date, Estado As String) As ADODB.Recordset

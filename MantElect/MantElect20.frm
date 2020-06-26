@@ -100,8 +100,12 @@ Private Sub Command1_Click(Index As Integer)
             
             Set XLS = CreateObject("Excel.Application")
       
-            sPlanilla
-      
+            sPlanilla1
+            sPlanilla2
+            sPlanilla3
+            sPlanilla4
+            XLS.Worksheets(1).Select
+
             sMsgEspere Me, "", False
             XLS.Application.Visible = True
          Else
@@ -113,9 +117,9 @@ Private Sub Command1_Click(Index As Integer)
    End If
 End Sub
 
-Private Sub sPlanilla()
+Private Sub sPlanilla1()
    mi = 9
-   sCabecera
+   sCabecera1
    
    Set mRec = mObj.getRPT_OTs(CDate(Text1(0).Text), CDate(Text1(1).Text))
    
@@ -125,11 +129,10 @@ Private Sub sPlanilla()
          .Cells(mi, 3).Formula = NVL(mRec!FechaCarga, "")
          .Cells(mi, 4).Formula = NVL(mRec!FechaInicio, "")
          .Cells(mi, 5).Formula = NVL(mRec!FechaFin, "")
-         
          .Cells(mi, 6).Formula = NVL(mRec!Elect_o_AA, "")
          .Cells(mi, 7).Formula = NVL(mRec!Usuario, "")
          
-         .Cells(mi, 8).Formula = NVL(mRec!CodigoSAP, "")
+         .Cells(mi, 8).Formula = NVL(mRec!CodigoSap, "")
          .Cells(mi, 9).Formula = NVL(mRec!Producto, "")
          .Cells(mi, 10).Formula = NVL(mRec!Cantidad, "")
          .Cells(mi, 11).Formula = NVL(mRec!UnidadMedida, "")
@@ -142,21 +145,22 @@ Private Sub sPlanilla()
    mRec.Close
 End Sub
 
-Private Sub sCabecera()
+Private Sub sCabecera1()
    With XLS
       .WorkBooks.Add
+      .Sheets.Add '4
+
       .Worksheets(1).Select
-      .Worksheets(1).Name = "Ord.Trabajo"
+      .Worksheets(1).Name = "OTs_Consumo_Materiales "
      
       .Columns("A:A").ColumnWidth = 2
       .Columns("B:B").ColumnWidth = 12 ' Ord.Trabajo
       .Columns("C:C").ColumnWidth = 12 ' Fecha Carga
       .Columns("D:D").ColumnWidth = 12 ' Fecha Inicio
       .Columns("E:E").ColumnWidth = 12 ' Fecha Cierre
-      
       .Columns("F:F").ColumnWidth = 17 ' Elect/AA
-      
       .Columns("G:G").ColumnWidth = 27 ' O.T. cerrada por
+      
       .Columns("H:H").ColumnWidth = 11 ' Cód. SAP
       .Columns("I:I").ColumnWidth = 63 ' Producto
       .Columns("J:J").ColumnWidth = 11 ' Cantidad
@@ -185,6 +189,7 @@ Private Sub sCabecera()
       .Range("B8:M8").Select
       .Selection.Font.Bold = True
       .Selection.Interior.ColorIndex = 15
+      .Selection.HorizontalAlignment = xlHAlignCenter
 
       With .Selection.Borders(xlEdgeBottom)
         .LineStyle = xlContinuous
@@ -239,6 +244,334 @@ Private Sub sCabecera()
       .Cells(8, 11).Formula = "Unid.Medida"
       .Cells(8, 12).Formula = "Ubicación"
       .Cells(8, 13).Formula = "Nro. Vale"
+   End With
+End Sub
+
+Private Sub sPlanilla2()
+   mi = 9
+   sCabecera2
+   
+   Set mRec = mObj.getRPT_OTs_Tecnicos(CDate(Text1(0).Text), CDate(Text1(1).Text))
+   
+   Do While Not mRec.EOF
+      With XLS
+         .Cells(mi, 2).Formula = NVL(mRec!IdOT, "")
+         .Cells(mi, 3).Formula = NVL(mRec!FechaCarga, "")
+         .Cells(mi, 4).Formula = NVL(mRec!FechaInicio, "")
+         .Cells(mi, 5).Formula = NVL(mRec!FechaFin, "")
+         .Cells(mi, 6).Formula = NVL(mRec!Elect_o_AA, "")
+         .Cells(mi, 7).Formula = NVL(mRec!Usuario, "")
+         
+         .Cells(mi, 8).Formula = NVL(mRec!Tecnico, "")
+
+      End With
+      mRec.MoveNext
+      mi = mi + 1
+   Loop
+   mRec.Close
+End Sub
+
+Private Sub sCabecera2()
+   With XLS
+      .Worksheets(2).Select
+      .Worksheets(2).Name = "OTs_Tecnicos"
+     
+      .Columns("A:A").ColumnWidth = 2
+      .Columns("B:B").ColumnWidth = 12 ' Ord.Trabajo
+      .Columns("C:C").ColumnWidth = 12 ' Fecha Carga
+      .Columns("D:D").ColumnWidth = 12 ' Fecha Inicio
+      .Columns("E:E").ColumnWidth = 12 ' Fecha Cierre
+      .Columns("F:F").ColumnWidth = 17 ' Elect/AA
+      .Columns("G:G").ColumnWidth = 27 ' O.T. cerrada por
+      .Columns("H:H").ColumnWidth = 31 ' Tecnicos
+
+      .Columns("B:B").HorizontalAlignment = xlHAlignCenter
+      .Columns("C:C").HorizontalAlignment = xlHAlignCenter
+      .Columns("D:D").HorizontalAlignment = xlHAlignCenter
+      .Columns("E:E").HorizontalAlignment = xlHAlignCenter
+      .Columns("F:F").HorizontalAlignment = xlHAlignCenter
+      
+      'Formateo OrdTrabajo: 000x
+      .Range("B9:B65536").Select
+      .Selection.NumberFormat = "000000"
+
+      'Formateo: Encabezd con Negrita.
+      .Range("B8:H8").Select
+      .Selection.Font.Bold = True
+      .Selection.Interior.ColorIndex = 15
+      .Selection.HorizontalAlignment = xlHAlignCenter
+
+      With .Selection.Borders(xlEdgeBottom)
+        .LineStyle = xlContinuous
+        .Weight = xlThin
+        .ColorIndex = xlAutomatic
+      End With
+
+      With .Selection.Borders(xlEdgeTop)
+        .LineStyle = xlContinuous
+        .Weight = xlThin
+        .ColorIndex = xlAutomatic
+      End With
+
+      With .Selection.Borders(xlEdgeLeft)
+        .LineStyle = xlContinuous
+        .Weight = xlThin
+        .ColorIndex = xlAutomatic
+      End With
+
+      With .Selection.Borders(xlRight)
+        .LineStyle = xlContinuous
+        .Weight = xlThin
+        .ColorIndex = xlAutomatic
+      End With
+
+      .Cells(1, 1).Formula = "AUTOPISTAS DEL SOL S.A."
+      .Cells(3, 1).Formula = "REPORTE: Ordenes de Trabajo"
+
+      .Range("A1:A1").Select
+      .Selection.Font.ColorIndex = 5
+      .Selection.Font.Size = 14
+      .Selection.Font.Bold = True
+
+      .Range("A3:A3").Select
+      .Selection.Font.Size = 12
+      .Selection.Font.Bold = True
+
+      .Range("B8:B8").Select
+
+      .Cells(5, 1).Formula = "Rango de Fechas: " & Text1(0).Text & " - " & Text1(1).Text
+      .Cells(6, 1).Formula = "Fecha ejecución del Reporte: " & mFechaEjec
+
+      .Cells(8, 2).Formula = "Ord.Trabajo"
+      .Cells(8, 3).Formula = "Fecha Carga"
+      .Cells(8, 4).Formula = "Fecha Inicio"
+      .Cells(8, 5).Formula = "Fecha Cierre"
+      .Cells(8, 6).Formula = "Eléctrico/A.A."
+      .Cells(8, 7).Formula = "O.T. cerrada por"
+      .Cells(8, 8).Formula = "Técnico"
+
+   End With
+End Sub
+
+Private Sub sPlanilla3()
+   mi = 9
+   sCabecera3
+   
+   Set mRec = mObj.getRPT_OTs_Subrubros(CDate(Text1(0).Text), CDate(Text1(1).Text))
+   
+   Do While Not mRec.EOF
+      With XLS
+         .Cells(mi, 2).Formula = NVL(mRec!IdOT, "")
+         .Cells(mi, 3).Formula = NVL(mRec!FechaCarga, "")
+         .Cells(mi, 4).Formula = NVL(mRec!FechaInicio, "")
+         .Cells(mi, 5).Formula = NVL(mRec!FechaFin, "")
+         .Cells(mi, 6).Formula = NVL(mRec!Elect_o_AA, "")
+         .Cells(mi, 7).Formula = NVL(mRec!Usuario, "")
+         
+         .Cells(mi, 8).Formula = NVL(mRec!Rubro, "")
+         .Cells(mi, 9).Formula = NVL(mRec!SubRubro, "")
+      End With
+      mRec.MoveNext
+      mi = mi + 1
+   Loop
+   mRec.Close
+End Sub
+
+Private Sub sCabecera3()
+   With XLS
+      .Worksheets(3).Select
+      .Worksheets(3).Name = "Ord.Trabajo_SubRubros"
+     
+      .Columns("A:A").ColumnWidth = 2
+      .Columns("B:B").ColumnWidth = 12 ' Ord.Trabajo
+      .Columns("C:C").ColumnWidth = 12 ' Fecha Carga
+      .Columns("D:D").ColumnWidth = 12 ' Fecha Inicio
+      .Columns("E:E").ColumnWidth = 12 ' Fecha Cierre
+      .Columns("F:F").ColumnWidth = 17 ' Elect/AA
+      .Columns("G:G").ColumnWidth = 27 ' O.T. cerrada por
+      
+      .Columns("H:H").ColumnWidth = 40 ' Rubro
+      .Columns("I:I").ColumnWidth = 70 ' SubRubro
+
+      .Columns("B:B").HorizontalAlignment = xlHAlignCenter
+      .Columns("C:C").HorizontalAlignment = xlHAlignCenter
+      .Columns("D:D").HorizontalAlignment = xlHAlignCenter
+      .Columns("E:E").HorizontalAlignment = xlHAlignCenter
+      .Columns("F:F").HorizontalAlignment = xlHAlignCenter
+
+      'Formateo OrdTrabajo: 000x
+      .Range("B9:B65536").Select
+      .Selection.NumberFormat = "000000"
+
+      'Formateo: Encabezd con Negrita.
+      .Range("B8:I8").Select
+      .Selection.Font.Bold = True
+      .Selection.Interior.ColorIndex = 15
+      .Selection.HorizontalAlignment = xlHAlignCenter
+
+      With .Selection.Borders(xlEdgeBottom)
+        .LineStyle = xlContinuous
+        .Weight = xlThin
+        .ColorIndex = xlAutomatic
+      End With
+
+      With .Selection.Borders(xlEdgeTop)
+        .LineStyle = xlContinuous
+        .Weight = xlThin
+        .ColorIndex = xlAutomatic
+      End With
+
+      With .Selection.Borders(xlEdgeLeft)
+        .LineStyle = xlContinuous
+        .Weight = xlThin
+        .ColorIndex = xlAutomatic
+      End With
+
+      With .Selection.Borders(xlRight)
+        .LineStyle = xlContinuous
+        .Weight = xlThin
+        .ColorIndex = xlAutomatic
+      End With
+
+      .Cells(1, 1).Formula = "AUTOPISTAS DEL SOL S.A."
+      .Cells(3, 1).Formula = "REPORTE: Ordenes de Trabajo"
+
+      .Range("A1:A1").Select
+      .Selection.Font.ColorIndex = 5
+      .Selection.Font.Size = 14
+      .Selection.Font.Bold = True
+
+      .Range("A3:A3").Select
+      .Selection.Font.Size = 12
+      .Selection.Font.Bold = True
+
+      .Range("B8:B8").Select
+
+      .Cells(5, 1).Formula = "Rango de Fechas: " & Text1(0).Text & " - " & Text1(1).Text
+      .Cells(6, 1).Formula = "Fecha ejecución del Reporte: " & mFechaEjec
+
+      .Cells(8, 2).Formula = "Ord.Trabajo"
+      .Cells(8, 3).Formula = "Fecha Carga"
+      .Cells(8, 4).Formula = "Fecha Inicio"
+      .Cells(8, 5).Formula = "Fecha Cierre"
+      .Cells(8, 6).Formula = "Eléctrico/A.A."
+      .Cells(8, 7).Formula = "O.T. cerrada por"
+      .Cells(8, 8).Formula = "Rubro"
+      .Cells(8, 9).Formula = "Sub Rubro"
+   End With
+End Sub
+
+Private Sub sPlanilla4()
+   mi = 9
+   sCabecera4
+   
+   Set mRec = mObj.getRPT_OTs_Vehiculos(CDate(Text1(0).Text), CDate(Text1(1).Text))
+   
+   Do While Not mRec.EOF
+      With XLS
+         .Cells(mi, 2).Formula = NVL(mRec!IdOT, "")
+         .Cells(mi, 3).Formula = NVL(mRec!FechaCarga, "")
+         .Cells(mi, 4).Formula = NVL(mRec!FechaInicio, "")
+         .Cells(mi, 5).Formula = NVL(mRec!FechaFin, "")
+         .Cells(mi, 6).Formula = NVL(mRec!Elect_o_AA, "")
+         .Cells(mi, 7).Formula = NVL(mRec!Usuario, "")
+         
+         .Cells(mi, 8).Formula = NVL(mRec!Vehiculo, "")
+         .Cells(mi, 9).Formula = NVL(mRec!KmInicial, "")
+         .Cells(mi, 10).Formula = NVL(mRec!KmFinal, "")
+
+      End With
+      mRec.MoveNext
+      mi = mi + 1
+   Loop
+   mRec.Close
+End Sub
+
+Private Sub sCabecera4()
+   With XLS
+      .Worksheets(4).Select
+      .Worksheets(4).Name = "OTs_Vehículos"
+     
+      .Columns("A:A").ColumnWidth = 2
+      .Columns("B:B").ColumnWidth = 12 ' Ord.Trabajo
+      .Columns("C:C").ColumnWidth = 12 ' Fecha Carga
+      .Columns("D:D").ColumnWidth = 12 ' Fecha Inicio
+      .Columns("E:E").ColumnWidth = 12 ' Fecha Cierre
+      .Columns("F:F").ColumnWidth = 17 ' Elect/AA
+      .Columns("G:G").ColumnWidth = 27 '  O.T. cerrada por
+      
+      .Columns("H:H").ColumnWidth = 27 ' Vehiculo
+      .Columns("I:I").ColumnWidth = 17 ' KmInicnal
+      .Columns("J:J").ColumnWidth = 17 ' KmFinal
+
+      .Columns("B:B").HorizontalAlignment = xlHAlignCenter
+      .Columns("C:C").HorizontalAlignment = xlHAlignCenter
+      .Columns("D:D").HorizontalAlignment = xlHAlignCenter
+      .Columns("E:E").HorizontalAlignment = xlHAlignCenter
+      .Columns("F:F").HorizontalAlignment = xlHAlignCenter
+      .Columns("I:I").HorizontalAlignment = xlHAlignRight
+      .Columns("J:J").HorizontalAlignment = xlHAlignRight
+      
+      'Formateo OrdTrabajo: 000x
+      .Range("B9:B65536").Select
+      .Selection.NumberFormat = "000000"
+
+      'Formateo: Encabezd con Negrita.
+      .Range("B8:J8").Select
+      .Selection.Font.Bold = True
+      .Selection.Interior.ColorIndex = 15
+      .Selection.HorizontalAlignment = xlHAlignCenter
+
+      With .Selection.Borders(xlEdgeBottom)
+        .LineStyle = xlContinuous
+        .Weight = xlThin
+        .ColorIndex = xlAutomatic
+      End With
+
+      With .Selection.Borders(xlEdgeTop)
+        .LineStyle = xlContinuous
+        .Weight = xlThin
+        .ColorIndex = xlAutomatic
+      End With
+
+      With .Selection.Borders(xlEdgeLeft)
+        .LineStyle = xlContinuous
+        .Weight = xlThin
+        .ColorIndex = xlAutomatic
+      End With
+
+      With .Selection.Borders(xlRight)
+        .LineStyle = xlContinuous
+        .Weight = xlThin
+        .ColorIndex = xlAutomatic
+      End With
+
+      .Cells(1, 1).Formula = "AUTOPISTAS DEL SOL S.A."
+      .Cells(3, 1).Formula = "REPORTE: Ordenes de Trabajo"
+
+      .Range("A1:A1").Select
+      .Selection.Font.ColorIndex = 5
+      .Selection.Font.Size = 14
+      .Selection.Font.Bold = True
+
+      .Range("A3:A3").Select
+      .Selection.Font.Size = 12
+      .Selection.Font.Bold = True
+
+      .Range("B8:B8").Select
+
+      .Cells(5, 1).Formula = "Rango de Fechas: " & Text1(0).Text & " - " & Text1(1).Text
+      .Cells(6, 1).Formula = "Fecha ejecución del Reporte: " & mFechaEjec
+
+      .Cells(8, 2).Formula = "Ord.Trabajo"
+      .Cells(8, 3).Formula = "Fecha Carga"
+      .Cells(8, 4).Formula = "Fecha Inicio"
+      .Cells(8, 5).Formula = "Fecha Cierre"
+      .Cells(8, 6).Formula = "Eléctrico/A.A."
+      .Cells(8, 7).Formula = "O.T. cerrada por"
+      .Cells(8, 8).Formula = "Vehículo"
+      .Cells(8, 9).Formula = "Km Inicial"
+      .Cells(8, 10).Formula = "Km Final"
    End With
 End Sub
 
