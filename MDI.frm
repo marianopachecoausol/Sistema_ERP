@@ -530,6 +530,10 @@ Begin VB.MDIForm MDI
          Caption         =   "Cancelar Partes"
          Enabled         =   0   'False
       End
+      Begin VB.Menu MElecRepReimpOTAbierta 
+         Caption         =   "Reimprimir OT abierta"
+         Enabled         =   0   'False
+      End
       Begin VB.Menu MElecRegSepa 
          Caption         =   "-"
       End
@@ -2114,6 +2118,11 @@ End Sub
 Private Sub MElecRepHistInterColumnas_Click()
 ShowMenu 47, False, True
 MantElect23.Show
+End Sub
+
+Private Sub MElecRepReimpOTAbierta_Click()
+ShowMenu 47, False, True
+MantElect24.Show
 End Sub
 
 Private Sub MElecRegAjusteInven_Click()
