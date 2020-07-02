@@ -1,5 +1,5 @@
 VERSION 5.00
-Object = "{5E9E78A0-531B-11CF-91F6-C2863C385E30}#1.0#0"; "msflxgrd.ocx"
+Object = "{5E9E78A0-531B-11CF-91F6-C2863C385E30}#1.0#0"; "MSFLXGRD.OCX"
 Object = "{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.0#0"; "MSCOMCTL.OCX"
 Begin VB.Form MantElect06 
    BorderStyle     =   3  'Fixed Dialog
@@ -1843,6 +1843,7 @@ Private Sub sCabecera1(NroOT As Integer, FechaOT As Date, Supervisor As String)
    With XLS
       .WorkBooks.Add
       .Worksheets(1).Select
+      .ActiveWindow.DisplayGridlines = False
       .Worksheets(1).Name = "Orden de Trabajo"
       .Columns("A:A").ColumnWidth = 1.14 '
       .Columns("B:B").ColumnWidth = 6.86 '

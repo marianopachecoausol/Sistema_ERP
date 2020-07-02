@@ -162,11 +162,13 @@ Private Sub sPlanilla1(NroOT As Integer)
     
     End If
     mRec.Close
-   
+     
    With XLS
       .WorkBooks.Add
       .Worksheets(1).Select
+      .ActiveWindow.DisplayGridlines = False
       .Worksheets(1).Name = "Orden de Trabajo"
+     
       .Columns("A:A").ColumnWidth = 1.14 '
       .Columns("B:B").ColumnWidth = 6.86 '
       .Columns("C:C").ColumnWidth = 24.29 '
@@ -992,6 +994,7 @@ Private Sub sPlanilla1(NroOT As Integer)
         .ColorIndex = xlAutomatic
       End With
 End With
+
 '-----------------------------------------------------------------------------------------------------
  
  
@@ -1010,7 +1013,6 @@ End With
 '   ActiveSheet.PageSetup.RightMargin = Application.CentimetersToPoints(0)
 '   ActiveSheet.PageSetup.TopMargin = Application.CentimetersToPoints(0)
 '   ActiveSheet.PageSetup.BottomMargin = Application.CentimetersToPoints(0)
-   
    
 End Sub
 
