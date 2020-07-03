@@ -1851,6 +1851,7 @@ Public Sub xCancelarPartes(ByVal pMotivo As String, ByRef pvPartes_Cancel() As D
    Dim mTextoMail As String
    Dim mTextoMailOperac As String
    Dim mIdCancel As Integer
+   Dim mDescCanceladoPor As String
 
    cmdTemp.CommandTimeout = 36000
    Set cmdTemp.ActiveConnection = DBConn
@@ -1872,6 +1873,14 @@ Public Sub xCancelarPartes(ByVal pMotivo As String, ByRef pvPartes_Cancel() As D
 
    cmdTemp.ActiveConnection.CommitTrans
    cmdTemp.CommandType = 1
+   
+   Set Rs1 = oEjecutarSelect("SELECT DISTINCT concat(nombres, ' ', apellido ) AS UsuarioDesc " & _
+                            " FROM loguser.usuarios  where CodUsuario = '" & pCodUsuario & "';")
+    
+   If Not Rs1.EOF Then
+        mDescCanceladoPor = Rs1!UsuarioDesc
+   End If
+   
    
    If pvPartes_Cancel(0) <> 0 Then
       For mi = LBound(pvPartes_Cancel) To UBound(pvPartes_Cancel)
@@ -1900,6 +1909,7 @@ Public Sub xCancelarPartes(ByVal pMotivo As String, ByRef pvPartes_Cancel() As D
          mTextoMail = mTextoMail & vbTab & "Nro Parte: " & pvPartes_Cancel(mi) & vbCrLf
          mTextoMail = mTextoMail & vbTab & "Descripción: " & vParte_CodEdificio(mi) & " - " & pvParte_Descripcion(mi) & vbCrLf
          mTextoMail = mTextoMail & vbTab & "Parte generado por: " & pvParte_OpGen(mi) & vbCrLf
+         mTextoMail = mTextoMail & vbTab & "Parte cancelado por: " & mDescCanceladoPor & vbCrLf
          mTextoMail = mTextoMail & vbTab & "Motivo de cancelación: " & pMotivo
           
          If Not fEnviar_Mail_CDO("", mListaDestinatarios, "ausolmail@ausol.com.ar", "Cancelación de Parte: " & pvPartes_Cancel(mi), mTextoMail, "", "587", "ausolmail@ausol.com.ar", "sgedosmildiecisiete1$", True, False) Then
