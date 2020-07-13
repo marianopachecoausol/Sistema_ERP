@@ -133,7 +133,7 @@ Private Sub Form_Unload(Cancel As Integer)
    Set mObj = Nothing
    Set mRec = Nothing
    Set XLS = Nothing
-   ShowMenu 12, True, False
+   ShowMenu 47, True, False
 End Sub
 
 Private Sub sPlanilla1(NroOT As Integer)
