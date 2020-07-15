@@ -1,5 +1,5 @@
 VERSION 5.00
-Object = "{5E9E78A0-531B-11CF-91F6-C2863C385E30}#1.0#0"; "msflxgrd.ocx"
+Object = "{5E9E78A0-531B-11CF-91F6-C2863C385E30}#1.0#0"; "MSFLXGRD.OCX"
 Begin VB.Form MantElect14 
    BorderStyle     =   3  'Fixed Dialog
    Caption         =   "Nuevo Comunicado"
@@ -124,7 +124,7 @@ Begin VB.Form MantElect14
          Style           =   2  'Dropdown List
          TabIndex        =   25
          Top             =   480
-         Width           =   2895
+         Width           =   3975
       End
       Begin VB.ComboBox Combo5 
          Height          =   315
