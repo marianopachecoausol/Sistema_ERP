@@ -1,5 +1,5 @@
 VERSION 5.00
-Object = "{5E9E78A0-531B-11CF-91F6-C2863C385E30}#1.0#0"; "msflxgrd.ocx"
+Object = "{5E9E78A0-531B-11CF-91F6-C2863C385E30}#1.0#0"; "MSFLXGRD.OCX"
 Object = "{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.0#0"; "MSCOMCTL.OCX"
 Begin VB.Form MantElect08 
    BorderStyle     =   3  'Fixed Dialog
@@ -1616,12 +1616,12 @@ Private Sub Command2_Click(Index As Integer)
       Dim vPartes_Estado() As String
       
       Dim vVeh_Codigo() As String
-      Dim vVeh_KmIni() As Integer
-      Dim vVeh_KmFin() As Integer
+      Dim vVeh_KmIni() As Long
+      Dim vVeh_KmFin() As Long
       
       Dim vVehEsp_Codigo() As String
-      Dim vVehEsp_KmIni() As Integer
-      Dim vVehEsp_KmFin() As Integer
+      Dim vVehEsp_KmIni() As Long
+      Dim vVehEsp_KmFin() As Long
       
       Dim vMO_OT() As String
       Dim vSubrub_OT() As String
@@ -1688,15 +1688,15 @@ Private Sub preparaArrayPartes(ByRef pvPartes_OT() As Double, ByRef pvPartes_Est
    End If
 End Sub
 
-Private Sub preparaArrayVehiculos(ByRef pvVeh_Codigo() As String, ByRef pvVeh_KmIni() As Integer, ByRef pvVeh_KmFin() As Integer)
+Private Sub preparaArrayVehiculos(ByRef pvVeh_Codigo() As String, ByRef pvVeh_KmIni() As Long, ByRef pvVeh_KmFin() As Long)
    Dim mj As Integer
    Dim cantVehiculos As Integer
 
    cantVehiculos = FlexVehAsign.Rows - 2
    If cantVehiculos > 0 Then
       ReDim pvVeh_Codigo(0 To cantVehiculos - 1) As String
-      ReDim pvVeh_KmIni(0 To cantVehiculos - 1) As Integer
-      ReDim pvVeh_KmFin(0 To cantVehiculos - 1) As Integer
+      ReDim pvVeh_KmIni(0 To cantVehiculos - 1) As Long
+      ReDim pvVeh_KmFin(0 To cantVehiculos - 1) As Long
          
       For mj = 2 To FlexVehAsign.Rows - 1
          pvVeh_Codigo(mj - 2) = FlexVehAsign.TextMatrix(mj, 5)
@@ -1711,15 +1711,15 @@ Private Sub preparaArrayVehiculos(ByRef pvVeh_Codigo() As String, ByRef pvVeh_Km
    End If
 End Sub
 
-Private Sub preparaArrayVehiculosEsp(ByRef pvVehEsp_Codigo() As String, ByRef pvVehEsp_KmIni() As Integer, ByRef pvVehEsp_KmFin() As Integer)
+Private Sub preparaArrayVehiculosEsp(ByRef pvVehEsp_Codigo() As String, ByRef pvVehEsp_KmIni() As Long, ByRef pvVehEsp_KmFin() As Long)
    Dim mj As Integer
    Dim cantVehiculos As Integer
 
    cantVehiculos = FlexVehEspAsign.Rows - 2
    If cantVehiculos > 0 Then
       ReDim pvVehEsp_Codigo(0 To cantVehiculos - 1) As String
-      ReDim pvVehEsp_KmIni(0 To cantVehiculos - 1) As Integer
-      ReDim pvVehEsp_KmFin(0 To cantVehiculos - 1) As Integer
+      ReDim pvVehEsp_KmIni(0 To cantVehiculos - 1) As Long
+      ReDim pvVehEsp_KmFin(0 To cantVehiculos - 1) As Long
       For mj = 2 To FlexVehEspAsign.Rows - 1
          pvVehEsp_Codigo(mj - 2) = FlexVehEspAsign.TextMatrix(mj, 4)
          pvVehEsp_KmIni(mj - 2) = FlexVehEspAsign.TextMatrix(mj, 2)

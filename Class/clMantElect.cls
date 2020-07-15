@@ -442,7 +442,7 @@ End Sub
 'insOT_Vehiculos
 '---------------------------------------
 
-Public Sub insOT_Vehiculos(ByVal IdOT As Integer, ByVal CodVehiculo As String, ByRef KmInicial As Integer, ByRef KmFinal As Integer, ByVal CodUsuario As String, ByRef cmd As ADODB.Command)
+Public Sub insOT_Vehiculos(ByVal IdOT As Integer, ByVal CodVehiculo As String, ByRef KmInicial As Long, ByRef KmFinal As Long, ByVal CodUsuario As String, ByRef cmd As ADODB.Command)
 
 Dim parametroSql As parametroSql
 Dim aParamSql(4) As parametroSql
@@ -722,9 +722,9 @@ End Sub
 
 
 Public Sub xCerrarOT(ByVal pIdOT As String, ByVal pFecIni As Date, ByVal pFecFin As Date, ByVal pCodUsuario As String, _
-                     ByRef pvPartes_OT() As Double, ByRef pvPartes_Estado() As String, ByRef pvPartesOriginal_OT() As Double, ByRef pvVehiculos_OT() As String, ByRef pvVehiculos_KmIni() As Integer, _
-                     ByRef pvVehiculos_KmFin() As Integer, ByRef pvVehiculosEsp_OT() As String, ByRef pvVehiculosEsp_KmIni() As Integer, _
-                     ByRef pvVehiculosEsp_KmFin() As Integer, ByRef pvMO_Tecnicos_OT() As String, ByRef pvSubrubros_OT() As String, _
+                     ByRef pvPartes_OT() As Double, ByRef pvPartes_Estado() As String, ByRef pvPartesOriginal_OT() As Double, ByRef pvVehiculos_OT() As String, ByRef pvVehiculos_KmIni() As Long, _
+                     ByRef pvVehiculos_KmFin() As Long, ByRef pvVehiculosEsp_OT() As String, ByRef pvVehiculosEsp_KmIni() As Long, _
+                     ByRef pvVehiculosEsp_KmFin() As Long, ByRef pvMO_Tecnicos_OT() As String, ByRef pvSubrubros_OT() As String, _
                      ByRef pvMat_CodProd() As String, ByRef pvMat_CodUbic() As String, ByRef pvMat_Cantidad() As Double, ByRef pvMat_CantidadBD() As Double)
    On Error GoTo ErrorHandler
    'Dim strSql1 As String
