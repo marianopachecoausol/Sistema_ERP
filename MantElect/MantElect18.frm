@@ -86,6 +86,7 @@ Begin VB.Form MantElect18
          MaxLength       =   44
          TabIndex        =   12
          Top             =   1920
+         Visible         =   0   'False
          Width           =   4935
       End
       Begin VB.ComboBox Combo3 
@@ -232,6 +233,7 @@ Begin VB.Form MantElect18
          Left            =   520
          TabIndex        =   14
          Top             =   1980
+         Visible         =   0   'False
          Width           =   1140
       End
       Begin VB.Label Label5 
@@ -917,7 +919,7 @@ Private Sub sLlenoTipoActivo()
    
    Combo2.Clear
 
-   Set mRec1 = mObj.oEjecutarSelect("SELECT Codigo, Descripcion From COM_TiposActivo ORDER BY Descripcion; ")
+   Set mRec1 = mObj.oEjecutarSelect("SELECT Codigo, Descripcion From COM_TiposActivo WHERE Codigo <> 99 ORDER BY Descripcion;")
 
    Do While Not mRec1.EOF
       Combo2.AddItem mRec1!descripcion & Space(100) & mRec1!Codigo
