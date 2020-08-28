@@ -1,5 +1,5 @@
 VERSION 5.00
-Object = "{5E9E78A0-531B-11CF-91F6-C2863C385E30}#1.0#0"; "msflxgrd.ocx"
+Object = "{5E9E78A0-531B-11CF-91F6-C2863C385E30}#1.0#0"; "MSFLXGRD.OCX"
 Begin VB.Form RAcc1beta 
    BackColor       =   &H00CECECE&
    BorderStyle     =   1  'Fixed Single
@@ -15,7 +15,6 @@ Begin VB.Form RAcc1beta
    ScaleHeight     =   10275
    ScaleWidth      =   14580
    Begin VB.ComboBox Combo1 
-      ForeColor       =   &H80000002&
       Height          =   315
       Index           =   1
       Left            =   4800
@@ -26,7 +25,6 @@ Begin VB.Form RAcc1beta
    End
    Begin VB.TextBox Text1 
       Alignment       =   2  'Center
-      ForeColor       =   &H8000000D&
       Height          =   285
       Index           =   6
       Left            =   11880
@@ -141,7 +139,6 @@ Begin VB.Form RAcc1beta
    End
    Begin VB.TextBox Text1 
       Alignment       =   2  'Center
-      ForeColor       =   &H8000000D&
       Height          =   285
       Index           =   4
       Left            =   8280
@@ -152,7 +149,6 @@ Begin VB.Form RAcc1beta
    End
    Begin VB.TextBox Text1 
       Alignment       =   2  'Center
-      ForeColor       =   &H8000000D&
       Height          =   285
       Index           =   3
       Left            =   8280
@@ -163,7 +159,6 @@ Begin VB.Form RAcc1beta
    End
    Begin VB.TextBox Text1 
       Alignment       =   2  'Center
-      ForeColor       =   &H8000000D&
       Height          =   285
       Index           =   2
       Left            =   7050
@@ -173,7 +168,6 @@ Begin VB.Form RAcc1beta
       Width           =   615
    End
    Begin VB.ComboBox Combo1 
-      ForeColor       =   &H80000002&
       Height          =   315
       Index           =   0
       Left            =   4800
@@ -184,7 +178,6 @@ Begin VB.Form RAcc1beta
    End
    Begin VB.TextBox Text1 
       Alignment       =   2  'Center
-      ForeColor       =   &H8000000D&
       Height          =   285
       Index           =   1
       Left            =   2340
@@ -195,7 +188,6 @@ Begin VB.Form RAcc1beta
    End
    Begin VB.TextBox Text1 
       Alignment       =   2  'Center
-      ForeColor       =   &H8000000D&
       Height          =   285
       Index           =   0
       Left            =   720
@@ -262,7 +254,6 @@ Begin VB.Form RAcc1beta
          Width           =   500
       End
       Begin VB.ComboBox Combo2 
-         ForeColor       =   &H80000002&
          Height          =   315
          Index           =   0
          Left            =   4065
@@ -333,7 +324,6 @@ Begin VB.Form RAcc1beta
          Width           =   2535
       End
       Begin VB.TextBox Text3 
-         ForeColor       =   &H80000002&
          Height          =   285
          Index           =   21
          Left            =   10140
@@ -344,7 +334,6 @@ Begin VB.Form RAcc1beta
          Width           =   4155
       End
       Begin VB.ComboBox Combo7 
-         ForeColor       =   &H80000002&
          Height          =   315
          Index           =   1
          Left            =   240
@@ -355,7 +344,6 @@ Begin VB.Form RAcc1beta
          Width           =   3435
       End
       Begin VB.ComboBox Combo7 
-         ForeColor       =   &H80000002&
          Height          =   315
          Index           =   0
          Left            =   240
@@ -380,7 +368,6 @@ Begin VB.Form RAcc1beta
          BackColorFixed  =   11780556
       End
       Begin VB.TextBox Text3 
-         ForeColor       =   &H80000002&
          Height          =   285
          Index           =   17
          Left            =   540
@@ -391,7 +378,6 @@ Begin VB.Form RAcc1beta
          Width           =   3735
       End
       Begin VB.ComboBox Combo2 
-         ForeColor       =   &H80000002&
          Height          =   315
          Index           =   12
          Left            =   6600
@@ -403,7 +389,6 @@ Begin VB.Form RAcc1beta
          Width           =   3375
       End
       Begin VB.ComboBox Combo2 
-         ForeColor       =   &H80000002&
          Height          =   315
          Index           =   11
          Left            =   240
@@ -415,7 +400,6 @@ Begin VB.Form RAcc1beta
          Width           =   3435
       End
       Begin VB.ComboBox Combo2 
-         ForeColor       =   &H80000002&
          Height          =   315
          Index           =   13
          Left            =   300
@@ -426,7 +410,6 @@ Begin VB.Form RAcc1beta
          Width           =   1995
       End
       Begin VB.TextBox Text3 
-         ForeColor       =   &H80000002&
          Height          =   285
          Index           =   20
          Left            =   6660
@@ -436,7 +419,6 @@ Begin VB.Form RAcc1beta
          Width           =   1995
       End
       Begin VB.TextBox Text3 
-         ForeColor       =   &H80000002&
          Height          =   285
          Index           =   19
          Left            =   3540
@@ -446,7 +428,6 @@ Begin VB.Form RAcc1beta
          Width           =   3015
       End
       Begin VB.TextBox Text3 
-         ForeColor       =   &H80000002&
          Height          =   285
          Index           =   18
          Left            =   2400
@@ -468,7 +449,6 @@ Begin VB.Form RAcc1beta
       Begin VB.TextBox Text3 
          Alignment       =   1  'Right Justify
          BackColor       =   &H00FFFFFF&
-         ForeColor       =   &H80000002&
          Height          =   285
          Index           =   12
          Left            =   13740
@@ -479,7 +459,6 @@ Begin VB.Form RAcc1beta
       End
       Begin VB.TextBox Text3 
          Alignment       =   1  'Right Justify
-         ForeColor       =   &H80000002&
          Height          =   285
          Index           =   11
          Left            =   13740
@@ -490,7 +469,6 @@ Begin VB.Form RAcc1beta
       End
       Begin VB.TextBox Text3 
          Alignment       =   1  'Right Justify
-         ForeColor       =   &H80000002&
          Height          =   285
          Index           =   10
          Left            =   12240
@@ -501,7 +479,6 @@ Begin VB.Form RAcc1beta
       End
       Begin VB.TextBox Text3 
          Alignment       =   1  'Right Justify
-         ForeColor       =   &H80000002&
          Height          =   285
          Index           =   9
          Left            =   12240
@@ -512,7 +489,6 @@ Begin VB.Form RAcc1beta
       End
       Begin VB.TextBox Text3 
          Alignment       =   1  'Right Justify
-         ForeColor       =   &H80000002&
          Height          =   285
          Index           =   8
          Left            =   10200
@@ -523,7 +499,6 @@ Begin VB.Form RAcc1beta
       End
       Begin VB.TextBox Text3 
          Alignment       =   1  'Right Justify
-         ForeColor       =   &H80000002&
          Height          =   285
          Index           =   7
          Left            =   10200
@@ -534,7 +509,6 @@ Begin VB.Form RAcc1beta
       End
       Begin VB.TextBox Text3 
          Alignment       =   1  'Right Justify
-         ForeColor       =   &H80000002&
          Height          =   285
          Index           =   6
          Left            =   8520
@@ -545,7 +519,6 @@ Begin VB.Form RAcc1beta
       End
       Begin VB.TextBox Text3 
          Alignment       =   1  'Right Justify
-         ForeColor       =   &H80000002&
          Height          =   285
          Index           =   5
          Left            =   8520
@@ -556,7 +529,6 @@ Begin VB.Form RAcc1beta
       End
       Begin VB.TextBox Text3 
          Alignment       =   1  'Right Justify
-         ForeColor       =   &H80000002&
          Height          =   285
          Index           =   4
          Left            =   6240
@@ -567,7 +539,6 @@ Begin VB.Form RAcc1beta
       End
       Begin VB.TextBox Text3 
          Alignment       =   1  'Right Justify
-         ForeColor       =   &H80000002&
          Height          =   285
          Index           =   3
          Left            =   6240
@@ -577,7 +548,6 @@ Begin VB.Form RAcc1beta
          Width           =   555
       End
       Begin VB.ComboBox Combo2 
-         ForeColor       =   &H80000002&
          Height          =   315
          Index           =   10
          Left            =   10740
@@ -588,7 +558,6 @@ Begin VB.Form RAcc1beta
          Width           =   3195
       End
       Begin VB.TextBox Text3 
-         ForeColor       =   &H80000002&
          Height          =   285
          Index           =   2
          Left            =   5700
@@ -599,7 +568,6 @@ Begin VB.Form RAcc1beta
          Width           =   4515
       End
       Begin VB.ComboBox Combo2 
-         ForeColor       =   &H80000002&
          Height          =   315
          Index           =   9
          Left            =   3180
@@ -611,7 +579,6 @@ Begin VB.Form RAcc1beta
          Width           =   2295
       End
       Begin VB.ComboBox Combo2 
-         ForeColor       =   &H80000002&
          Height          =   315
          Index           =   8
          Left            =   480
@@ -677,7 +644,6 @@ Begin VB.Form RAcc1beta
          Width           =   3795
       End
       Begin VB.ComboBox Combo2 
-         ForeColor       =   &H80000002&
          Height          =   315
          Index           =   7
          Left            =   10920
@@ -689,7 +655,6 @@ Begin VB.Form RAcc1beta
          Width           =   1995
       End
       Begin VB.ComboBox Combo2 
-         ForeColor       =   &H80000002&
          Height          =   315
          Index           =   6
          Left            =   6480
@@ -700,7 +665,6 @@ Begin VB.Form RAcc1beta
          Width           =   1995
       End
       Begin VB.ComboBox Combo2 
-         ForeColor       =   &H80000002&
          Height          =   315
          Index           =   5
          Left            =   4680
@@ -712,7 +676,6 @@ Begin VB.Form RAcc1beta
          Width           =   1455
       End
       Begin VB.ComboBox Combo2 
-         ForeColor       =   &H80000002&
          Height          =   315
          Index           =   4
          Left            =   2640
@@ -723,7 +686,6 @@ Begin VB.Form RAcc1beta
          Width           =   1635
       End
       Begin VB.ComboBox Combo2 
-         ForeColor       =   &H80000002&
          Height          =   315
          Index           =   3
          Left            =   180
@@ -734,7 +696,6 @@ Begin VB.Form RAcc1beta
          Width           =   2175
       End
       Begin VB.TextBox Text2 
-         ForeColor       =   &H80000002&
          Height          =   285
          Left            =   9600
          MaxLength       =   250
@@ -743,7 +704,6 @@ Begin VB.Form RAcc1beta
          Width           =   4695
       End
       Begin VB.ComboBox Combo2 
-         ForeColor       =   &H80000002&
          Height          =   315
          Index           =   2
          Left            =   7620
@@ -754,7 +714,6 @@ Begin VB.Form RAcc1beta
          Width           =   1815
       End
       Begin VB.ComboBox Combo2 
-         ForeColor       =   &H80000002&
          Height          =   315
          Index           =   1
          Left            =   5685
@@ -1914,7 +1873,6 @@ Begin VB.Form RAcc1beta
             Width           =   1155
          End
          Begin VB.ComboBox Combo4 
-            ForeColor       =   &H80000002&
             Height          =   315
             Index           =   6
             Left            =   6660
@@ -1924,7 +1882,6 @@ Begin VB.Form RAcc1beta
             Width           =   615
          End
          Begin VB.ComboBox Combo4 
-            ForeColor       =   &H80000002&
             Height          =   315
             Index           =   5
             Left            =   4260
@@ -1934,7 +1891,6 @@ Begin VB.Form RAcc1beta
             Width           =   615
          End
          Begin VB.ComboBox Combo4 
-            ForeColor       =   &H8000000D&
             Height          =   315
             Index           =   1
             Left            =   7860
@@ -1945,7 +1901,6 @@ Begin VB.Form RAcc1beta
             Width           =   1935
          End
          Begin VB.ComboBox Combo4 
-            ForeColor       =   &H80000002&
             Height          =   315
             Index           =   0
             Left            =   2580
@@ -1956,7 +1911,6 @@ Begin VB.Form RAcc1beta
             Width           =   2415
          End
          Begin VB.ComboBox Combo4 
-            ForeColor       =   &H80000002&
             Height          =   315
             Index           =   4
             Left            =   7500
@@ -1979,7 +1933,6 @@ Begin VB.Form RAcc1beta
             Width           =   2175
          End
          Begin VB.ComboBox Combo4 
-            ForeColor       =   &H80000002&
             Height          =   315
             Index           =   2
             Left            =   720
@@ -1990,7 +1943,6 @@ Begin VB.Form RAcc1beta
             Width           =   2175
          End
          Begin VB.TextBox Text4 
-            ForeColor       =   &H80000002&
             Height          =   285
             Index           =   6
             Left            =   11040
@@ -2000,7 +1952,6 @@ Begin VB.Form RAcc1beta
             Width           =   1875
          End
          Begin VB.TextBox Text4 
-            ForeColor       =   &H80000002&
             Height          =   285
             Index           =   5
             Left            =   5880
@@ -2022,7 +1973,7 @@ Begin VB.Form RAcc1beta
                Italic          =   0   'False
                Strikethrough   =   0   'False
             EndProperty
-            ForeColor       =   &H80000006&
+            ForeColor       =   &H80000008&
             Height          =   195
             Left            =   300
             TabIndex        =   68
@@ -2307,7 +2258,6 @@ Begin VB.Form RAcc1beta
          Width           =   1095
       End
       Begin VB.TextBox Text4 
-         ForeColor       =   &H80000002&
          Height          =   1125
          Index           =   10
          Left            =   7320
@@ -2319,7 +2269,6 @@ Begin VB.Form RAcc1beta
          Width           =   7035
       End
       Begin VB.TextBox Text4 
-         ForeColor       =   &H80000002&
          Height          =   1125
          Index           =   9
          Left            =   120
@@ -2331,7 +2280,6 @@ Begin VB.Form RAcc1beta
          Width           =   7035
       End
       Begin VB.TextBox Text4 
-         ForeColor       =   &H80000002&
          Height          =   1125
          Index           =   8
          Left            =   7320
@@ -2343,7 +2291,6 @@ Begin VB.Form RAcc1beta
          Width           =   7095
       End
       Begin VB.TextBox Text4 
-         ForeColor       =   &H80000002&
          Height          =   1125
          Index           =   7
          Left            =   120
@@ -4637,7 +4584,7 @@ Dim mAuxi(10) As String
       
       
       Text2.Text = NVL(mRec!OBS, "")
-      sSelectCombo Combo1(1), NVL(mRec!codramal, "")
+      sSelectCombo Combo1(1), NVL(mRec!CodRamal, "")
 '      For mI = 0 To Combo1(1).ListCount - 1
 '         If CInt(Trim(Right(Combo1(1).List(mI), 3))) = mRec!codramal Then
 '            Combo1(1).ListIndex = mI
